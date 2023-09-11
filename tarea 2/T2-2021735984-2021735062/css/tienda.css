@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.col1, .col2 {
+	width: 420px;
+	float: left;
+	margin: 10px;
+}
+
+.col1 img {
+	border: 3px solid #fff;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.col2 img {
+	border: 3px solid #fff;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+.col1 button {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.col2 button {
+	background-color: transparent;
+	cursor: pointer;
+}

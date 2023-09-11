@@ -1,0 +1,28 @@
+.container {
+    max-width: 1600px; /* Ajusta el valor según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.grid-container {
+    display: grid;
+    border-radius: 10px; /* Ajusta el valor según tus necesidades */
+    grid-template-columns: repeat(4, 1fr); /* Dos columnas de ancho igual */
+    grid-gap: 20px; /* Espacio entre las imágenes */
+    overflow: hidden;
+}
+  
+.image-container:hover {
+    padding: 10px; 
+}
+  
+.image-container img {
+    width: 98%; 
+    height: auto; 
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+.image-container button {
+	background-color: transparent;
+	cursor: pointer;
+}
